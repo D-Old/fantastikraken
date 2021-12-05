@@ -44,3 +44,4 @@ print('With', NoOfTrees, 'trees (', NoOfTrees*30, '€), planted in', PlantingPh
 import matplotlib.pyplot as plt
 plt.plot(dtList, TotEmishList)
 
+#end of file
