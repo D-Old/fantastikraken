@@ -3,10 +3,10 @@ import datetime
 from dateutil.relativedelta import relativedelta
 
 
-dt = datetime.datetime(2020, 11, 1)
+dt = datetime.datetime(2021, 12, 7)
 startdate = dt
 dtList = [dt]
-NoOfTrees = 0
+NoOfTrees = 12
 NewTreesPerMonth = 1
 MaxTrees = 2000
 decarb = 0.0025 # t, monthly 
