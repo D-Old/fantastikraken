@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import datetime
-from dateutil.relativedelta import relativedelta
+from dateutil.relativedelta import relativedelta #python-dateutil
 
 
 dt = datetime.datetime(2021, 12, 7)
@@ -43,5 +43,5 @@ print('With', NoOfTrees, 'trees (', NoOfTrees*30, '€), planted in', PlantingPh
 
 import matplotlib.pyplot as plt
 plt.plot(dtList, TotEmishList)
-
+plt.show()
 #end of file
